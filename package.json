@@ -1,0 +1,19 @@
+{
+  "name": "save-notification",
+  "main": "./lib/save-notification",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "pane:active-item-changed",
+    "atom-workspace": "core:save"
+  },
+  "repository": "https://github.com/atom/save-notification",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
