@@ -1,3 +1,3 @@
 # save-notification package
 
-Shows notification whenever you save a file, to make it easier to tell if you've successfully saved.
+A plugin for atom.io that shows a notification whenever you save a file. Simple.
