@@ -1,7 +1,7 @@
 {
   "name": "save-notification",
   "main": "./lib/save-notification",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Shows notification whenever you save a file, to make it easier to tell if you've successfully saved.",
   "keywords": [],
   "activationCommands": {
