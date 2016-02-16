@@ -9,7 +9,7 @@
     "atom-workspace": "pane:active-item-changed",
     "atom-workspace": "core:save"
   },
-  "repository": "https://github.com/atom/save-notification",
+  "repository": "https://github.com/aklos/save-notification",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
