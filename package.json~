@@ -2,7 +2,7 @@
   "name": "save-notification",
   "main": "./lib/save-notification",
   "version": "0.2.0",
-  "description": "Shows notification whenever you save a file, to make it easier to tell if you've successfully saved.",
+  "description": "A short description of your package",
   "keywords": [],
   "activationCommands": {
     "atom-workspace": "core:save"
