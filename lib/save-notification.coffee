@@ -13,7 +13,7 @@ module.exports = SaveNotification =
           default: true
       notificationDuration:
           type: 'integer'
-          default: 2000
+          default: 1000
           minimum: 100
           maximum: 10000
   subscriptions: null
