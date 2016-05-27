@@ -2,7 +2,7 @@
   "name": "save-notification",
   "main": "./lib/save-notification",
   "version": "0.9.0",
-  "description": "Shows a notification whenever you save a file.",
+  "description": "A customizable plugin for atom.io that shows quick notifications when you save changes to files.",
   "keywords": [],
   "activationCommands": {
     "atom-workspace": "core:save"

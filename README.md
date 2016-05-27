@@ -1,3 +1,4 @@
-# save-notification package
+# Save Notification Package
 
-A plugin for atom.io that shows a notification whenever you save a file.
+A customizable plugin for atom.io that shows quick notifications when you save changes to files.
+Choose notification types and durations in package settings.

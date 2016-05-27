@@ -13,7 +13,7 @@ module.exports = SaveNotification =
           default: true
       notificationDuration:
           type: 'integer'
-          default: 1000
+          default: 700
           minimum: 100
           maximum: 10000
   subscriptions: null
@@ -40,7 +40,8 @@ module.exports = SaveNotification =
             if atom.config.get('save-notification.enableInfoNotification')
                 file = editor?.buffer.file
                 filePath = file?.path
-                n2 = atom.notifications.addInfo(filePath, { dismissable: true })
+                if (filePath?)
+                    n2 = atom.notifications.addInfo(filePath, { dismissable: true })
         else if atom.config.get('save-notification.enableNoChangeNotification')
             n3 = atom.notifications.addInfo('No modifications to save.', { dismissable: true })
         setTimeout ( ->
